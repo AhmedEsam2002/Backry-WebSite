@@ -1,0 +1,302 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* first page  */
+.firstPage {
+  background-image: url(images/background_img.jpg);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Welcome {
+  text-align: center;
+  margin: auto;
+  color: white;
+  line-height: 2;
+  width: 52%;
+
+  font-family: "Alegreya";
+}
+.Welcome h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 91px;
+  color: #ffffff;
+}
+.Welcome p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 45px;
+  color: rgba(244, 244, 244, 0.92);
+}
+.Welcome button {
+  padding: 15px 28px;
+  font-size: 16px;
+  color: white;
+  margin: auto;
+  margin-top: 35px;
+  margin-left: 12px;
+  border-radius: 6px;
+}
+.Welcome button:hover {
+  background-color: white;
+  color: black;
+  transition-duration: 0.3s;
+}
+.LearnMore {
+  background-color: #8e7755;
+  border: 3px solid #8e7755;
+}
+.Contact_Us {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+/* second page */
+.second_page {
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-family: "Alegreya";
+}
+.second_page .Who_img {
+  float: left;
+  width: 35%;
+  margin-right: 80px;
+}
+.second_page h2 {
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #303030;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.second_page p {
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  color: #686868;
+}
+
+.Who_text {
+  width: 38%;
+  float: right;
+}
+
+.Who_text ul {
+  list-style: none;
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  color: #686868;
+}
+.Who_text li p {
+  float: left;
+}
+.Who_text li img {
+  float: left;
+}
+.Who_text li p {
+  vertical-align: middle;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.fix-clear {
+  clear: both;
+}
+
+/* Third Page */
+.third {
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-family: "Alegreya";
+  background-color: #f8f8f8;
+}
+.location {
+  width: 40%;
+  padding: 22px 16px 0px 15px;
+  margin-left: 0%;
+  margin-right: 40px;
+  float: left;
+}
+.location h2 {
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #303030;
+}
+.location p {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  color: #686868;
+}
+
+.third img {
+  width: 38%;
+  margin-bottom: 90px;
+  margin-top: 90px;
+}
+/* fourth page  */
+.fourth {
+  overflow: auto;
+
+  font-family: "Alegreya";
+  background-color: white;
+  text-align: center;
+}
+.fourth h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  color: #303030;
+  margin-bottom: 17px;
+}
+.fourth p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  color: #888888;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.Boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.Baking {
+  float: left;
+  width: 25%;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+.Baking img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.Baking h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: #303030;
+  margin-bottom: 15px;
+}
+.Baking p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  color: #686868;
+}
+/* five page  */
+.five {
+  background-color: #f8f8f8;
+  overflow: auto;
+  font-family: "Alegreya";
+  background-color: #f8f8f8;
+
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Alegreya";
+  background-color: #f8f8f8;
+  padding-bottom: 85px;
+  padding-top: 105px;
+}
+.contact {
+  width: 38%;
+  float: left;
+  text-align: left;
+  margin-left: 155px;
+}
+
+.information h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #303030;
+  margin-bottom: 30px;
+}
+.information p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  color: #686868;
+  margin-bottom: 30px;
+}
+
+.details li {
+  list-style: none;
+  margin-bottom: 23px;
+}
+.details li img {
+  float: left;
+}
+.details li p {
+  float: left;
+}
+.details li p {
+  vertical-align: middle;
+
+  margin-top: 15px;
+  margin-left: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  color: #686868;
+}
+.details p {
+  margin-top: 20px;
+  margin-bottom: 18px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  color: #686868;
+}
+iframe {
+  width: 40%;
+  float: right;
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
